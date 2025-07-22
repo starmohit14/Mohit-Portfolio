@@ -5,7 +5,8 @@ import jsIcon from '../../assets/js.jpeg';
 import reactIcon from '../../assets/react.png';
 import nodeIcon from '../../assets/node.png';
 import expressIcon from '../../assets/express.png';
-import mongoIcon from '../../assets/mongo.png';
+import wordpressIcon from '../../assets/wordpress.png';
+import elementorIcon from '../../assets/elementor.png';
 import gitIcon from '../../assets/git.png';
 import tailwindIcon from '../../assets/tailwind.jpeg';
 import mysqlIcon from '../../assets/mysql.png';
@@ -16,12 +17,12 @@ const technicalSkills = [
   { name: 'CSS', icon: cssIcon },
   { name: 'JavaScript', icon: jsIcon },
   { name: 'React.js', icon: reactIcon },
-  { name: 'Node.js', icon: nodeIcon },
-  { name: 'Express.js', icon: expressIcon },
-  { name: 'MongoDB', icon: mongoIcon },
+  // { name: 'Node.js', icon: nodeIcon },
+  { name: 'WordPress', icon: wordpressIcon },
+  { name: 'Elementor', icon: elementorIcon },
   { name: 'Git & GitHub', icon: gitIcon },
   { name: 'Tailwind CSS', icon: tailwindIcon },
-  { name: 'MySQL', icon: mysqlIcon },
+  // { name: 'MySQL', icon: mysqlIcon },
   { name: 'Excel', icon: excelIcon }
 ];
 
