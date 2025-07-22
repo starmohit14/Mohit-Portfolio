@@ -1,5 +1,5 @@
 import React from 'react';
-import AboutImg from "../../assets/download.png";
+import AboutImg from "../../assets/mohit-pics2.jpg";
 import { IoArrowForward } from "react-icons/io5";
 
 const About = () => {
