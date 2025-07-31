@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
-import bannerImg from '../../assets/BlogImg.jpg';
 
-const ProjectCard = ({ title, main, img }) => {
+const ProjectCard = ({ title, main, img, demoLink, sourceLink }) => {
   const [showModal, setShowModal] = useState(false);
 
   return (
@@ -15,7 +14,7 @@ const ProjectCard = ({ title, main, img }) => {
         />
         <h3 className="text-xl font-bold mb-2">{title}</h3>
 
-        {/* Paragraph with space for button */}
+        {/* Paragraph */}
         <p className="text-sm text-gray-300 overflow-hidden max-h-[88px] pr-1 pb-10">
           {main}
         </p>
@@ -58,14 +57,24 @@ const ProjectCard = ({ title, main, img }) => {
                   </div>
                 </div>
 
-                {/* Buttons */}
+                {/* Buttons with links */}
                 <div className="mt-6 flex gap-4">
-                  <button className="bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 hover:opacity-90 px-4 py-2 font-semibold text-white rounded-full transition-transform transform hover:scale-105">
+                  <a
+                    href={demoLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-[#011F4B] hover:bg-[#03396c] px-4 py-2 font-semibold text-white rounded-full transition-transform transform hover:scale-105"
+                  >
                     Demo
-                  </button>
-                  <button className="bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 hover:opacity-90 px-4 py-2 font-semibold text-white rounded-full transition-transform transform hover:scale-105">
+                  </a>
+                  <a
+                    href={sourceLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-white hover:bg-gray-100 border border-[#011F4B] text-[#011F4B] px-4 py-2 font-semibold rounded-full transition-transform transform hover:scale-105"
+                  >
                     Source Code
-                  </button>
+                  </a>
                 </div>
               </div>
 

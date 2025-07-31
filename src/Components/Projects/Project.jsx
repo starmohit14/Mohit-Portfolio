@@ -1,11 +1,11 @@
 import React from 'react';
 import ProjectCard from './ProjectCard';
-import blogImg from '../../assets/BlogImg.jpg';
+import userFinder from '../../assets/userFinder.jpg';
 import ecomImg from '../../assets/ecomImg.jpeg';
 import portImg from '../../assets/portImg.jpg';
-import weatherImg from '../../assets/weatherImg.avif';
-import doctorImg from '../../assets/DocImg.jpeg';
-import expenseImg from '../../assets/expenceImg.png';
+import tngImg from '../../assets/tngImg.jpg';
+import sigmaImg from '../../assets/sigmaImg.jpg';
+import truewebtechImg from '../../assets/truewebtechImg.jpg';
 
 const Project = () => {
   return (
@@ -20,34 +20,43 @@ const Project = () => {
 
         <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 place-items-center'>
           <ProjectCard
-            title="Blogging Website"
-            main="A blog platform built with React.js and Express.js. Integrated component libraries for clean UI & seamless user experience."
-            img= {blogImg}
+            title="Portfolio Website"
+            main="Personal portfolio site using React and Tailwind CSS to showcase projects, skills, and contact form with email integration."
+            img={portImg}
+            demoLink="https://portfolio-mohit-sharma.vercel.app/"
+            sourceLink="https://github.com/starmohit14/Mohit-Portfolio"
+          />
+          <ProjectCard
+            title="GitHub User Finder"
+            main="React-based GitHub User Finder app that uses GitHub’s API to search for developers and display profile data in real-time."
+            img={userFinder}
+            demoLink="https://starmohit14.github.io/GitHub-User-Finder/"
+            sourceLink="https://github.com/starmohit14/GitHub-User-Finder"
           />
           <ProjectCard
             title="E-Commerce Dashboard"
             main="Created a responsive admin dashboard using React, Chart.js & Tailwind for managing products, orders, and analytics."
-            img = {ecomImg}
+            img={ecomImg}
+            demoLink="#"
+            sourceLink="#"
           />
           <ProjectCard
-            title="Portfolio Website"
-            main="Personal portfolio site using React and Tailwind CSS to showcase projects, skills, and contact form with email integration."
-            img={portImg}
+            title="The Noble Group Services"
+            main="At The Noble Group Services, we prioritize your well-being in everything we do. We offer personalized guidance, care, and solutions tailored to your NDIS needs."
+            img={tngImg}
+            demoLink="https://thenoblegroupservices.com.au"
           />
           <ProjectCard
-            title="Weather App"
-            main="Fetched real-time weather data using OpenWeatherMap API. Built with vanilla JS and responsive layout using Flexbox."
-            img={weatherImg}
-          />
-          <ProjectCard
-            title="Doctor Appointment App"
+            title="SigmaCrew Digital"
             main="A MERN stack project that enables patients to book appointments with doctors, featuring authentication and admin control."
-            img={doctorImg}
+            img={sigmaImg}
+            demoLink="https://sigmacrewdigital.com"
           />
           <ProjectCard
-            title="Expense Tracker"
-            main="Full-stack application to track and categorize expenses using MongoDB and React with Redux Toolkit."
-            img={expenseImg}
+            title="TrueWebTech"
+            main="We’ve been delivering reliable digital solutions for over four decades. From startups to enterprises, our expertise helps businesses thrive in a competitive world!"
+            img={truewebtechImg}
+            demoLink="https://truewebtech.com"
           />
         </div>
       </div>
