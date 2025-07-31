@@ -44,7 +44,7 @@ const Project = () => {
             title="The Noble Group Services"
             main="At The Noble Group Services, we prioritize your well-being in everything we do. We offer personalized guidance, care, and solutions tailored to your NDIS needs."
             img={tngImg}
-            demoLink="https://thenoblegroupservices.com.au"
+            demoLink="https://tngservices.com.au/"
           />
           <ProjectCard
             title="SigmaCrew Digital"
