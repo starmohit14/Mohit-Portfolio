@@ -3,7 +3,7 @@ import htmlIcon from '../../assets/html.jpeg';
 import cssIcon from '../../assets/css.jpeg';
 import jsIcon from '../../assets/js.jpeg';
 import reactIcon from '../../assets/react.png';
-import axiosIcon from '../../assets/axios.png';
+// import axiosIcon from '../../assets/axios.png';
 import apiIcon from '../../assets/api.png';
 import bootstrapIcon from '../../assets/bootstrap.png';
 import wordpressIcon from '../../assets/wordpress.png';
@@ -21,7 +21,7 @@ const technicalSkills = [
   { name: 'JavaScript', icon: jsIcon },
   { name: 'React.js', icon: reactIcon },
   { name: 'Redux Toolkit', icon: reduxIcon },
-  { name: 'Axios', icon: axiosIcon },
+  // { name: 'Axios', icon: axiosIcon },
   { name: 'API', icon: apiIcon },
   { name: 'Git & GitHub', icon: gitIcon },
   { name: 'WordPress', icon: wordpressIcon },
