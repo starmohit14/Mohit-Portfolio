@@ -3,26 +3,29 @@ import htmlIcon from '../../assets/html.jpeg';
 import cssIcon from '../../assets/css.jpeg';
 import jsIcon from '../../assets/js.jpeg';
 import reactIcon from '../../assets/react.png';
-import nodeIcon from '../../assets/node.png';
-import expressIcon from '../../assets/express.png';
+import axiosIcon from '../../assets/axios.png';
+import apiIcon from '../../assets/api.png';
+import bootstrapIcon from '../../assets/bootstrap.png';
 import wordpressIcon from '../../assets/wordpress.png';
 import elementorIcon from '../../assets/elementor.png';
-import gitIcon from '../../assets/git.png';
+import gitIcon from '../../assets/git.png'; 
 import tailwindIcon from '../../assets/tailwind.jpeg';
-import mysqlIcon from '../../assets/mysql.png';
+import reduxIcon from '../../assets/redux.png';
 import excelIcon from "../../assets/excel.jpeg";
 
 const technicalSkills = [
   { name: 'HTML', icon: htmlIcon },
   { name: 'CSS', icon: cssIcon },
+  { name: 'Tailwind CSS', icon: tailwindIcon },
+  { name: 'Bootstrap', icon: bootstrapIcon },
   { name: 'JavaScript', icon: jsIcon },
   { name: 'React.js', icon: reactIcon },
-  // { name: 'Node.js', icon: nodeIcon },
+  { name: 'Redux Toolkit', icon: reduxIcon },
+  { name: 'Axios', icon: axiosIcon },
+  { name: 'API', icon: apiIcon },
+  { name: 'Git & GitHub', icon: gitIcon },
   { name: 'WordPress', icon: wordpressIcon },
   { name: 'Elementor', icon: elementorIcon },
-  { name: 'Git & GitHub', icon: gitIcon },
-  { name: 'Tailwind CSS', icon: tailwindIcon },
-  // { name: 'MySQL', icon: mysqlIcon },
   { name: 'Excel', icon: excelIcon }
 ];
 

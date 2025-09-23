@@ -8,6 +8,7 @@ import {
   FaRegFileExcel,
   FaWordpress,
   FaGoogle,
+  FaBootstrap,
 } from "react-icons/fa";
 
 import {
@@ -44,7 +45,7 @@ const Experience = () => {
             <div>
               <h2 className='text-xl font-bold'>WordPress Developer</h2>
               <h3 className='text-base font-medium text-gray-300'>SigmaCrew Digital | Greater Noida (Remote)</h3>
-              <p className='text-sm text-gray-400 mt-1'>Jan 2025 – Present</p>
+              <p className='text-sm text-gray-400 mt-1'>Aug 2024 – Present</p>
               <ul className='list-disc pl-5 text-sm mt-3 space-y-1 text-gray-300 text-left'>
                 <li>Proficient in HTML, CSS, JavaScript, Bootstrap, and WordPress for crafting dynamic, user-friendly interfaces aligned with modern design principles.</li>
                 <li>Developed and launched dynamic web platforms for clients like The Noble Group and SigmaCrew, leveraging WordPress and Bootstrap for rapid, responsive deployment.</li>
@@ -57,6 +58,7 @@ const Experience = () => {
             {[
               { icon: <FaHtml5 color='orangered' /> },
               { icon: <FaCss3 color='#264de4' /> },
+              { icon: <FaBootstrap color='#264de4' /> },
               { icon: <FaJs color='#f0db4f' /> },
               { icon: <FaWordpress color='#21759B' /> },
               { icon: <SiElementor color='#92003B' /> },
@@ -75,7 +77,7 @@ const Experience = () => {
             <div>
               <h2 className='text-xl font-bold'>WordPress Developer Intern</h2>
               <h3 className='text-base font-medium text-gray-300'>Webxplore Technologies Pvt. Ltd. | Ghaziabad (Remote)</h3>
-              <p className='text-sm text-gray-400 mt-1'>Sep 2024 – Dec 2024</p>
+              <p className='text-sm text-gray-400 mt-1'>May 2024 – July 2024</p>
               <ul className='list-disc pl-5 text-sm mt-3 space-y-1 text-gray-300 text-left'>
                 <li>Assisted in updating and customizing WordPress websites using Elementor and theme builders.</li>
                 <li>Supported integration of WooCommerce features like product pages and payment gateways for small business sites.</li>
@@ -88,6 +90,7 @@ const Experience = () => {
             {[
               { icon: <FaHtml5 color='orangered' /> },
               { icon: <FaCss3 color='#264de4' /> },
+              { icon: <FaBootstrap color='#264de4' /> },
               { icon: <FaJs color='#f0db4f' /> },
               { icon: <FaWordpress color='#21759B' /> },
               { icon: <SiElementor color='#92003B' /> },
@@ -106,7 +109,7 @@ const Experience = () => {
             <div>
               <h2 className='text-xl font-bold'>SEO Executive</h2>
               <h3 className='text-base font-medium text-gray-300'>Webxplore Technologies Pvt. Ltd. | Ghaziabad (Remote & Onsite)</h3>
-              <p className='text-sm text-gray-400 mt-1'>Jan 2021 – Sep 2024</p>
+              <p className='text-sm text-gray-400 mt-1'>Jan 2021 – April 2024</p>
               <ul className='list-disc pl-5 text-sm mt-3 space-y-1 text-gray-300 text-left'>
                 <li>Enhanced organic traffic by 70% through strategic SEO initiatives, including keyword optimization and implementation of structured data (Schema.org).</li>
                 <li>Partnered with development teams to build and launch SEO-optimized, high-performing websites, ensuring technical SEO best practices were integrated from the ground up.</li>

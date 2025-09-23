@@ -27,9 +27,13 @@ const About = () => {
           {/* Text */}
           <div className="max-w-xl text-sm md:text-lg text-gray-300 leading-relaxed tracking-wide text-center md:text-left">
             <p>
-              Hi, I’m a passionate <strong className="text-blue-400">Frontend Developer</strong> who has built responsive and interactive online applications with <strong className="text-blue-300">React.js, HTML, CSS, and JavaScript</strong>.
+              Hi, I’m a passionate <strong className="text-blue-400">Frontend Developer</strong> specializing in <strong className="text-blue-300">React.js</strong>. I enjoy building modern, responsive, and user-friendly web applications that not only look great but also deliver smooth performance.
               <br /><br />
-              I appreciate converting ideas into digital experiences using clean and efficient code.  My primary focus is on user-friendly design, performance, and usefulness across all platforms.
+              With hands-on experience in <strong className="text-blue-300">React.js, JavaScript (ES6+), API integration, and Tailwind CSS</strong>, I focus on creating clean UI designs and writing scalable code. I’m well-versed with React Hooks, Context API, and performance optimization, which helps me deliver efficient solutions for real-world projects.
+              <br /><br />
+              Currently, I’m looking for opportunities where I can apply my skills, learn from industry experts, and grow as a React.js Developer while contributing to impactful projects.
+              <br /><br />
+              💡 Beyond coding, I love solving logical problems, exploring new technologies, and constantly improving myself as a developer.
             </p>
           </div>
         </div>
@@ -43,7 +47,7 @@ const About = () => {
             },
             {
               title: "ReactJS Developer",
-              desc: "A ReactJS Developer specializes in building dynamic and scalable front-end applications using the React library. They manage components, hooks, state management, and integrate APIs to deliver fast, responsive web experiences.",
+              desc: "A ReactJS Developer specializes in building dynamic and scalable front-end applications using the React library. They manage components, hooks, state management, Redux and integrate APIs to deliver fast, responsive web experiences.",
             },
             {
               title: "WordPress Developer",

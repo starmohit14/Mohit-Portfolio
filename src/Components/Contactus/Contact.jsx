@@ -10,16 +10,16 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        'service_2szplsd',           // ✅ Your actual Service ID
-        'template_oet46dq',          // ✅ Your actual Template ID
+        'service_t0nsp0n',          // ✅ Your Service ID from EmailJS
+        'template_zoukz0m',         // ✅ Your Template ID from EmailJS
         form.current,
-        '3xrF9ZHYuRyjWqIuH'          // ✅ Your actual Public Key
+        '3xrF9ZHYuRyjWqIuH'         // ✅ Your Public Key from EmailJS
       )
       .then(
         (result) => {
           console.log(result.text);
           alert('✅ Message sent successfully!');
-          form.current.reset(); // Clear form
+          form.current.reset(); // Clear form after success
         },
         (error) => {
           console.log(error.text);
@@ -32,22 +32,24 @@ const Contact = () => {
     <section id="contact" className="text-white py-20 px-4 md:px-20 bg-opacity-90">
       <div className="max-w-4xl mx-auto bg-slate-900 bg-opacity-70 p-10 md:p-16 rounded-2xl border border-blue-400 shadow-[0_0_30px_rgba(0,0,0,0.7)] backdrop-blur-lg transition-all duration-500 hover:shadow-[0_0_40px_white]">
 
+        {/* Heading */}
         <div className="text-center mb-10">
           <h2 className="text-3xl md:text-4xl font-bold mb-2">
-            Let's <span className='text-blue-400'>Contact</span>
+            Let's <span className="text-blue-400">Contact</span>
           </h2>
           <p className="text-gray-400 text-sm md:text-base">
             Have a project in mind or just want to say hi? Drop a message below.
           </p>
         </div>
 
+        {/* Contact Form */}
         <form ref={form} onSubmit={sendEmail} className="space-y-6">
           {/* Name */}
           <div className="relative">
             <FaUser className="absolute left-3 top-4 text-gray-400" />
             <input
               type="text"
-              name="user_name"
+              name="user_name"       // ✅ must match your EmailJS template variable
               placeholder="Your Name"
               required
               className="w-full pl-10 pr-4 py-3 bg-zinc-800 rounded-lg outline-none focus:ring-2 focus:ring-blue-500 transition"
@@ -59,7 +61,7 @@ const Contact = () => {
             <FaEnvelope className="absolute left-3 top-4 text-gray-400" />
             <input
               type="email"
-              name="user_email"
+              name="user_email"      // ✅ must match your EmailJS template variable
               placeholder="Your Email"
               required
               className="w-full pl-10 pr-4 py-3 bg-zinc-800 rounded-lg outline-none focus:ring-2 focus:ring-blue-500 transition"
@@ -70,7 +72,7 @@ const Contact = () => {
           <div className="relative">
             <FaCommentDots className="absolute left-3 top-4 text-gray-400" />
             <textarea
-              name="message"
+              name="message"         // ✅ must match your EmailJS template variable
               rows="5"
               placeholder="Your Message"
               required
