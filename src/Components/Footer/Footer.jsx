@@ -1,7 +1,7 @@
 import React from 'react';
 import { MdOutlineEmail } from "react-icons/md";
 import { CiLinkedin } from "react-icons/ci";
-import { FaGithub } from "react-icons/fa";
+import { FaGithub, FaPhone } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -42,6 +42,17 @@ const Footer = () => {
               rel="noopener noreferrer"
             >
               GitHub
+            </a>
+          </li>
+          <li className="flex items-center gap-3 hover:underline hover:scale-105 transition">
+            <FaPhone size={20} />
+            <a
+              href="tel:+919456228510"
+              className="hover:underline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Call Now
             </a>
           </li>
         </ul>
