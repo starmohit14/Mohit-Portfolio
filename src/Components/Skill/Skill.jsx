@@ -3,7 +3,7 @@ import htmlIcon from '../../assets/html.jpeg';
 import cssIcon from '../../assets/css.jpeg';
 import jsIcon from '../../assets/js.jpeg';
 import reactIcon from '../../assets/react.png';
-import axiosImage from '../../assets/axio.png';
+import axiosImage from '../../assets/axioss.png';
 import apiImage from '../../assets/apis.png';
 import bootstrapIcon from '../../assets/bootstrap.png';
 import wordpressIcon from '../../assets/wordpress.png';
