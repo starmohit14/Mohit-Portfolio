@@ -11,7 +11,7 @@ const Navbar = () => {
     { label: "Experience", href: "#Experience" },
     { label: "Projects", href: "#Projects" },
     { label: "Contact", href: "#contact" },
-    { label: "Resume", href: "/Mohit Sharma - Updated React Resume.pdf", target: "_blank" },
+    { label: "Resume", href: "/Mohit Sharma - React Resume.pdf", target: "_blank" },
   ];
 
   return (
