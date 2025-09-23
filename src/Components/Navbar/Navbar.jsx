@@ -17,7 +17,7 @@ const Navbar = () => {
   return (
     <nav className="fixed w-full top-0 left-0 z-50 bg-white/5 backdrop-blur-md shadow-md px-6 md:px-20 py-5 md:py-6 flex justify-between items-center text-white">
       {/* Logo */}
-      <a href="#Home">
+      <a href="/">
         <span className="text-3xl md:text-4xl font-extrabold tracking-widest bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent cursor-pointer hover:opacity-90 transition">
           PORTFOLIO
         </span>
