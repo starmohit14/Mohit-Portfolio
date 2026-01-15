@@ -26,7 +26,7 @@ import {
 
 import { TbSeo } from "react-icons/tb";
 
-import SigmaLogo from "../../assets/sigmacrew.png";
+import SigmaLogo from "../../assets/webxplore.png";
 import WebLogo from "../../assets/webxplore.png";
 
 const Experience = () => {
@@ -44,7 +44,7 @@ const Experience = () => {
             <img src={SigmaLogo} alt="SDS" className='w-16 h-16 rounded-md object-cover shadow-md' />
             <div>
               <h2 className='text-xl font-bold'>WordPress Developer</h2>
-              <h3 className='text-base font-medium text-gray-300'>SigmaCrew Digital | Greater Noida (Remote)</h3>
+              <h3 className='text-base font-medium text-gray-300'>Webxplore Technologies | Ghaziabad (Remote)</h3>
               <p className='text-sm text-gray-400 mt-1'>Aug 2024 – Present</p>
               <ul className='list-disc pl-5 text-sm mt-3 space-y-1 text-gray-300 text-left'>
                 <li>Proficient in HTML, CSS, JavaScript, Bootstrap, and WordPress for crafting dynamic, user-friendly interfaces aligned with modern design principles.</li>
@@ -76,7 +76,7 @@ const Experience = () => {
             <img src={WebLogo} alt="Google" className='w-16 h-16 rounded-md object-cover shadow-md' />
             <div>
               <h2 className='text-xl font-bold'>WordPress Developer Intern</h2>
-              <h3 className='text-base font-medium text-gray-300'>Webxplore Technologies Pvt. Ltd. | Ghaziabad (Remote)</h3>
+              <h3 className='text-base font-medium text-gray-300'>Webxplore Technologies | Ghaziabad (Remote)</h3>
               <p className='text-sm text-gray-400 mt-1'>May 2024 – July 2024</p>
               <ul className='list-disc pl-5 text-sm mt-3 space-y-1 text-gray-300 text-left'>
                 <li>Assisted in updating and customizing WordPress websites using Elementor and theme builders.</li>
